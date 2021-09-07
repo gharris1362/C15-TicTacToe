@@ -16,7 +16,7 @@
   width: 302px;
   margin: auto;
 }
-
+/* 
 .top {
   border-bottom: 1px solid red;
 }
@@ -31,4 +31,41 @@
 
 .right {
   border-left: 1px solid yellow;
+} */
+
+.topLeft {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black
+}
+
+.topMiddle {
+    border-bottom: 1px solid black;
+
+}
+
+.topRight {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.centerLeft {
+    border-right: 1px solid black;
+}
+
+.centerRight {
+    border-left: 1px solid black;
+}
+
+.bottomLeft {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bottomMiddle {
+    border-top: 1px solid black;
+}
+
+.bottomRight {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
